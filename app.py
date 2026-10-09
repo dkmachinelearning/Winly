@@ -5,13 +5,16 @@ import json
 from datetime import datetime, timezone
 
 st.set_page_config(
-    page_title="Winly — Losowanie zwycięzców",
+    page_title="Winly – Losowanie zwycięzców konkursów online",
     page_icon="🎯",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
 
 st.markdown("""
+<meta name="description"
+    content="Winly to darmowe narzędzie online do losowania zwycięzców konkursów. Wklej listę uczestników, usuń duplikaty i pobierz raport z wynikami.">
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
 
